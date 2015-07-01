@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>K-Means 聚类算法</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./css/kmeans.css" type="text/css" />
+    <script type="text/javascript" src="./js/kmeans.js"></script>
+  </head>
+  <body onload="init()">
+    <div id="main">
+    	  <span class="title">K-Means Demo - by George Xu</span>
+      <canvas id="main-canvas" width="600" height="400"></canvas>
+      <div class="field">
+	点数: <input id="numPoints" type="text" value="100">
+      </div>
+      <div class="field">
+	K值: <input id="numClusters" type="text" value="5">
+      </div>
+      <input type="button" value="初始化" onclick="init()">
+      <input type="button" value="分步" onclick="update()">
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,26 @@
+body {  
+    text-align: center;
+    background-color: #000;
+    color:#FFF
+}
+#main {
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    
+    -webkit-transform:translateY(-50%)；
+}
+#main-canvas {
+    margin-bottom: 10px;
+}
+.field {
+    padding-bottom: 10px;
+}
+.field input {
+    position: absolute;
+    left: 70px;
+}
+
+.title {font-size:30px;text-align:center;display:block;margin:30px 0}
+
